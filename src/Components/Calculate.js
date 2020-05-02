@@ -15,11 +15,6 @@ export default class Calculate extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    componentDidMount() {
-        const number = null;
-        this.setState({ number });
-    }
-
     getFibonacciNumber(n) {
         axios.get(`https://fibonacci-node-app.herokuapp.com/fib?n=${n}`)
             .then(res => {
