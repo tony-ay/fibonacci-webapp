@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/fibonacci-webapp/static/css/main.d1b05096.chunk.css",
-    "main.js": "/fibonacci-webapp/static/js/main.b16e90e8.chunk.js",
-    "main.js.map": "/fibonacci-webapp/static/js/main.b16e90e8.chunk.js.map",
+    "main.js": "/fibonacci-webapp/static/js/main.148a59fc.chunk.js",
+    "main.js.map": "/fibonacci-webapp/static/js/main.148a59fc.chunk.js.map",
     "runtime-main.js": "/fibonacci-webapp/static/js/runtime-main.02966aa8.js",
     "runtime-main.js.map": "/fibonacci-webapp/static/js/runtime-main.02966aa8.js.map",
-    "static/js/2.b836bccc.chunk.js": "/fibonacci-webapp/static/js/2.b836bccc.chunk.js",
-    "static/js/2.b836bccc.chunk.js.map": "/fibonacci-webapp/static/js/2.b836bccc.chunk.js.map",
+    "static/js/2.b0101e33.chunk.js": "/fibonacci-webapp/static/js/2.b0101e33.chunk.js",
+    "static/js/2.b0101e33.chunk.js.map": "/fibonacci-webapp/static/js/2.b0101e33.chunk.js.map",
     "index.html": "/fibonacci-webapp/index.html",
-    "precache-manifest.3909211fcea1d545da9d23ecbff9514e.js": "/fibonacci-webapp/precache-manifest.3909211fcea1d545da9d23ecbff9514e.js",
+    "precache-manifest.3a7bf4c3364e9545b4a2981798d9d5c1.js": "/fibonacci-webapp/precache-manifest.3a7bf4c3364e9545b4a2981798d9d5c1.js",
     "service-worker.js": "/fibonacci-webapp/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/fibonacci-webapp/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.b836bccc.chunk.js.LICENSE.txt": "/fibonacci-webapp/static/js/2.b836bccc.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/fibonacci-webapp/static/media/logo.5d5d9eef.svg"
+    "static/js/2.b0101e33.chunk.js.LICENSE.txt": "/fibonacci-webapp/static/js/2.b0101e33.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.02966aa8.js",
-    "static/js/2.b836bccc.chunk.js",
+    "static/js/2.b0101e33.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.b16e90e8.chunk.js"
+    "static/js/main.148a59fc.chunk.js"
   ]
 }
