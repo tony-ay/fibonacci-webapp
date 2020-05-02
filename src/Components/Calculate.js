@@ -1,12 +1,14 @@
 import React from 'react';
 import axios from 'axios';
 
+import './Calculate.css';
+
 export default class Calculate extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             number: null,
-            value: 'Please enter a number'
+            value: ''
         }
 
         this.handleChange = this.handleChange.bind(this);
@@ -21,7 +23,6 @@ export default class Calculate extends React.Component {
     getFibonacciNumber(n) {
         axios.get(`https://fibonacci-node-app.herokuapp.com/fib?n=${n}`)
             .then(res => {
-                console.log(res);
                 const number = res.data;
                 this.setState({ number });
             });
@@ -41,12 +42,15 @@ export default class Calculate extends React.Component {
             <div>
                 What Fibonacci number do you want to calculate?
                 <form onSubmit={this.handleSubmit}>
-                    <label>
-                        <textarea value={this.state.value} onChange={this.handleChange} />
-                    </label>
+                    <input
+                        type="text"
+                        placeholder="Enter a number"
+                        value={this.state.value}
+                        onChange={this.handleChange} />
+                    <br />
                     <input type="submit" value="Calculate" />
                 </form>
-                The answer is: { this.state.number }
+                <p className="Answer" >{ this.state.number }</p>
             </div>
         )
     }

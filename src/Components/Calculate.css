@@ -1,0 +1,13 @@
+input[type=text] {
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0;
+    box-sizing: border-box
+}
+
+input[type=submit] {
+    text-align: center;
+    padding: 5px 5px;
+    margin: 5px 0;
+    box-sizing: border-box
+}
